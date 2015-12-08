@@ -1,0 +1,68 @@
+/*客服中心*/
+.kfbox{
+	margin-top: 40px;
+}
+.kf_name{
+	width: 103px;
+	height: 25px;
+	background-position: -584px -191px ;
+}
+.k-gray{
+	color: #999;
+}
+.f9{
+	font-size: 10px;
+	color: #999;
+	padding: 0 10px;
+	font-family: simsun;
+}
+.kf-nav{
+	background-position: 0 -240px;
+	z-index: 2;
+	position: relative;
+	margin-top: 10px;
+	height: 34px;
+	line-height: 34px;
+	border: 1px solid #CFCFCF;
+}
+.kf_list{
+	width: 38%;
+	position: relative;
+	height: 38px;
+	margin-bottom: -4px;
+}
+.kf_list li{
+	float: left;
+	width: 93px;
+	text-align: center;
+	font-size: 14px;
+	cursor: pointer;
+}
+.kf_list li.current{
+	position: relative;
+	height: 34px;
+	color: #333;
+	font-weight: bold;
+	background: #FAFAFA;
+	margin: -1px -1px 0 -1px;
+	border: 1px solid #bbb;
+	border-bottom: 3px solid #FAFAFA;
+}
+.kf_lnk{
+	padding-right: 10px;
+	color: #CBCBCB;
+}
+.kf-txtlist{
+	padding: 20px 0;
+}
+#kf1 .txtlist_nape{
+	float: left;
+	width: 39%;
+	padding-bottom: 2px;
+}
+#kf2 .txtlist_nape{
+	padding-bottom: 2px;
+	float: left;
+	width: 30%;
+	padding-right: 0;
+}

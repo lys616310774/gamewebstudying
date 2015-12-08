@@ -1,0 +1,117 @@
+/*战争学院*/
+.xy{
+	margin-top: 39px;
+	width: 350px;
+}
+.xy a:hover{
+	color: #333;
+	text-decoration: underline;
+}
+.xy .more{
+	padding-top: 25px;
+}
+.xy_name{
+	position: relative;
+	width: 101px;
+	height: 25px;
+	background-position: -584px -140px;
+	margin-bottom: 15px;
+}
+.xy-fill{
+	width: 55%;
+	height: 32px;
+	padding-top: 8px;
+}
+.xy-fill li{
+	float: left;
+	width: 50%;
+}
+.xy-fill .xy-radio{
+	float: left;
+	margin-top: 1px;
+}
+.xy-radio{
+	margin-right: 3px;
+	display: inline-block;
+	vertical-align: middle;
+	width: 14px;
+	height: 14px;
+	border: 1px solid #B1B1B1;
+	border-radius: 10px;
+	cursor: pointer;
+	position: relative;
+}
+.xy-radio .i{
+	display: inline-block;
+	position: absolute;
+	top: 1px;
+	left: 1px;
+	height: 10px;
+	width: 10px;
+	cursor: pointer;
+}
+.current .xy-radio .i{
+	background: #00A383;
+	border-radius: 10px;
+} 
+.xy-select{
+	width: 136px;
+	overflow: hidden;
+	padding-top: 8px;
+}
+.xy-slct{
+	float: right;
+	height: 22px;
+	border: 1px solid #DCDCDC;
+	box-shadow: 0 0 2px rgba(0,0,0,.1) inset;
+	font-size: 12px;
+	cursor: pointer;
+}
+.xy-txtlist{
+	width: 100%;
+	height: 120px;
+	display: none;
+}
+.xy-txtlist .sidebar{
+	width: 46px;
+}
+.txtlist_nape .pa{
+	position: absolute;
+    top: 0;
+    right: 0;
+    line-height: 24px;
+    color: #9BA0AD;
+}
+.sidebar{
+	display: block;
+	margin-top: 5px;
+	border: 1px solid #E0E0E0;
+	padding: 2px;
+	background: #fff;
+	position: relative;
+	overflow: hidden;
+}
+.sidebar .empty{
+	display: block;
+	width: 100%;
+	height: 9px;
+	background: #eee;
+}
+.sidebar .xy-green{
+	background: #00A483;
+	margin-top: -9px;
+	position: relative;
+	display: block;
+	height: 9px;
+}
+.xy-img{
+	padding: 30px 0 25px;
+	position: relative;
+	display: block;
+}
+.xy-img li{
+	margin-bottom: 5px;
+}
+.xy-img img{
+	border-bottom-width: 2px;
+}

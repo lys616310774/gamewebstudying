@@ -1,0 +1,66 @@
+body{
+	height: auto;
+	overflow-y: auto;
+	font: normal 12px/1.6em Microsoft YaHei,Tahoma,simsun;
+	color: #666;
+	margin: 0 auto;
+	min-width: 1000px;
+	background: url(../img/main/public-bgbody.jpg);
+}
+a{
+	cursor: pointer;
+	text-decoration: none;
+	color: #333;
+}
+a:hover{
+	color:#66CDAA;
+	text-decoration: none
+}
+p{
+	margin: 0px 0px;
+	font-size: 12px;
+}
+ul{
+	list-style: none;
+}
+em{
+	font-style: normal;
+}
+label{
+	font: normal 12px/1.6em Microsoft YaHei,Tahoma,simsun;
+	color: #333;
+}
+select{
+	font-family: "microsoft yahei";
+}
+/*全局*/
+.wrapper{
+	background: url(../img/main/lol_layout.jpg) no-repeat center top;
+}
+.layout{
+	width: 980px;
+	margin: 0 auto
+}
+.publicspr{
+	background-image: url(../img/main/public-v2.png);
+  	background-repeat: no-repeat;
+}
+.hid{
+	display: none;
+}
+.fl{
+	float: left;
+	display: inline;
+}
+.fr{
+	float: right;
+	display: inline;
+}
+.tlg{
+	display: block;
+	overflow: hidden;
+	text-indent: -9999em;
+}
+.w100{
+	width: 100%;
+}

@@ -1,0 +1,73 @@
+/*周免英雄*/
+.hero{
+	width: 350px;
+	margin-top: 39px;
+}
+.free-hero{
+	width: 131px;
+	height: 25px;
+	background-position: -584px -166px;
+}
+.hero a:hover{
+	text-decoration: underline;
+	color: #666;
+}
+.hero_list{
+	width: 100%;
+	margin-top: 15px;
+	margin-right: -10px;
+	position: relative;
+}
+.hero_list a{
+	float: left;
+	position: relative;
+	margin-right: 5px;
+	margin-bottom: 5px;
+}
+.hero_list img{
+	width: 76px;
+	height: 76px;
+}
+.hero_list .hero_search,.hero_list a{
+	width: 65px;
+	height: 65px;
+	overflow: hidden;
+}
+.hero_list a:hover .hero_search,.hero_list a:hover .hero_n{
+	display: block;
+}
+.hero_list .hero_search{
+	display: none;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: #00A383;
+	opacity: 0.8;
+	cursor: pointer;
+}
+.hero_search .ico-search{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin: -21px 0 0 -12px;
+	display: block;
+	width: 22px;
+	height: 24px;
+	background-position: -710px -64px;
+}
+.hero_n{
+	position: absolute;
+	top: 37px;
+	left: 0;
+	color: #FFF;
+	display: none;
+	width: 100%;
+	text-align: center;
+	line-height: 14px;
+}
+.free_time{
+	width: 100%;
+	text-align: right;
+	color: #9F9F9F;
+	margin-bottom: 22px;
+}

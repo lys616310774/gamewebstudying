@@ -1,0 +1,146 @@
+/*新闻*/
+.news{
+	width: 387px;
+	height: 280px;
+	background: #2B3140;
+	margin-right: -1px;
+	position: relative;
+	overflow: hidden;
+	border: 1px solid #000;
+	
+}
+.news_nav{
+	margin-right: -1px;
+	position: relative;
+	height: 42px;
+	border-bottom: 1px solid #191C28;
+}
+.news_nav li,.news_nav span{
+	float: left;
+	height: 43px;
+	width: 97px;
+	overflow: hidden;
+	text-indent: -999em;
+	cursor: pointer;
+}
+.mainspr{
+	background-image: url(../img/main/mainspr.png);
+	background-repeat: no-repeat;
+}
+.news_nav .current{
+	width: 96px;
+	position: relative;
+	margin-right: -1px;
+}
+.news_nav1{
+	background-position: -387px -67px;
+}
+.news_nav2{
+	background-position: -387px -111px;
+}
+.news_nav3{
+	background-position: -387px -155px;
+}
+.news_nav4{
+	background-position: -485px -67px;
+}
+.current .news_nav1{
+	background-position: -485px -111px;
+} 
+.current .news_nav2{
+	background-position: -485px -155px;
+} 
+.current .news_nav3{
+	background-position: -517px 0px;
+} 
+.current .news_nav4{
+	background-position: -583px -44px;
+} 
+.news_list{
+	padding: 12px 20px;
+  	height: 210px;
+  	background-position: 0 0;
+  	font-size: 12px;
+}
+.nl-b{
+	display: block;
+}
+.nl-n{
+	display: none;
+}
+.news_list a:hover{
+	text-decoration: underline;
+}
+.news_list .first{
+	height: 38px;
+	margin-bottom: 5px;
+	text-align: center;
+	background-color: #1D212D;
+	line-height: 38px;
+	font-size: 14px;
+	overflow: hidden;
+}
+.news_list .link_title{
+	color: #FAFAFB;
+}
+.news_list .first .link_title {
+  	color: #00FFCC;
+}
+.news_list .first span,.news_list .first i,.news_list .first .link_type{
+	display: none;
+}
+.txtlist_nape{
+	display: block;
+	height: 24px;
+	line-height: 24px;
+	position: relative;
+	overflow: hidden;
+	padding: 0 50px 0 12px;
+}
+.txtlist_nape .ico-arr{
+	position: absolute;
+	display: block;
+	top: 8px;
+	left: 0;
+	width: 4px;
+	height: 7px;
+	background-position: -716px 0;
+}
+.txtlist_nape .link_type{
+	margin-right: 5px;
+  	overflow: hidden;
+  	color: #7E8390;
+}
+.txtlist_nape .date{
+	position: absolute;
+  	top: 0;
+  	right: 0;
+  	line-height: 24px;
+  	color: #9BA0AD;
+}
+.more{
+	text-align: right;
+  	padding-top: 5px;
+}
+.more_link{
+	color: #9FA4B1;
+}
+.ico-more{
+	padding-left: 18px;
+  	height: 18px;
+  	line-height: 18px;
+  	background-position: -1411px -49px;
+  	font-size: 12px;
+}
+.vote-tip{
+	position: absolute;
+  	color: #9fa4b1;
+  	left: 20px;
+  	bottom: 5px;
+  	background-position: -1409px -137px;
+  	padding-left: 15px;
+  	margin-left: -8px;
+}
+.vote-tip a{
+  color: #9fa4b1;
+}

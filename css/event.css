@@ -1,0 +1,90 @@
+/*赛事中心*/
+.ss_kf{
+	margin-top: 40px;
+	width: 590px;
+}
+.ss_title{
+	margin-bottom: 15px;
+	width: 101px;
+	height: 25px;
+	background-position: -584px -114px;
+}
+.ss_kf a:hover{
+	text-decoration: underline;
+	color: #666;
+}
+.ssbox{
+	background: #fff;
+	border: 1px solid #E1E1E1;
+	box-shadow: 0 0 2px rgba(0,0,0,.1);
+}
+.ssbox .pre_list li{
+	width: 84px;
+}
+.ss_cont-t{
+	display: none;
+	width: 550px;
+	float: left;
+	padding: 20px 19px;
+}
+.ss_cont-n{
+	display: block;
+}
+.ss_img{
+	width: 160px;
+	margin-right: 22px;
+}
+.ss_img img{
+	display: block;
+	width: 160px;
+	height: 158px;
+}
+.btn-long{
+	display: block;
+	margin-top: 10px;
+	width: 162px;
+	height: 37px;
+	line-height: 37px;
+	font-size: 14px;
+	text-align: center;
+	color: #fff;
+	background-position: -387px -200px;
+}
+.ss_img a:hover{
+	color: #fff;
+}
+.ss_txt{
+	width: 330px;
+	position: relative;
+}
+.ss_txt a:hover{
+	color: #00A686;
+}
+.event_title{
+	font-size: 20px;
+	color: #00A686;
+	font-weight: bold;
+	line-height: 30px;
+}
+.event-num{
+	position: absolute;
+	top: 0;
+	right: -70px;
+	width: 129px;
+	height: 66px;
+	text-align: center;
+	background-position: -387px 0;
+	color: #005B49;
+}
+.event-num .fbig{
+	font-size: 20px;
+	color: #fff;
+	display: block;
+	padding: 10px 0 5px;
+}
+.ss_txtlist{
+	padding-top: 15px;
+}
+.ss_txtlist a:hover{
+	color: #333;
+}
